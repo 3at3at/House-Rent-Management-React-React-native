@@ -1,0 +1,84 @@
+.logo {
+    height: 80px;
+    width: 100px;
+    scale: 1.4;
+    transition: transform 0.3s ease;
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  .logo:hover {
+    transform: scale(1.6);
+  }
+  
+  .schedule-visit {
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1f1f1f; 
+    border-radius: 8px;
+    text-align: center; 
+  }
+  
+  .schedule-visit h2 {
+    color: #f1f1f1; 
+    margin-bottom: 30px;
+  }
+  
+  .schedule-visit input {
+    width: 100%;
+    padding: 15px;
+    background-color: #2b2b2b; 
+    color: #fff; 
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-visit input::placeholder {
+    color: #bbb; 
+  }
+
+  .confirmation-message-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 25px;
+  }
+  
+  .error-message {
+    color: red; 
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .schedule-visit button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule-visit button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .schedule-visit button:focus {
+    outline: none;
+  }
+  
+  .schedule-visit p {
+    text-align: center;
+    color: #ccc; 
+    margin-top: 20px;
+  }
+  
